@@ -22,3 +22,10 @@ let pesoTotale = 0;
 
 //! LOGICA EFFETTIVA:
 
+// CREO un arrow function (servendomi di forEach)
+zucchine.forEach(zucchina => {
+    pesoTotale += zucchina.peso;
+  });
+
+// STAMPO in console il risultato
+console.log(`Il peso totale di tutte le zucchine è ${pesoTotale} g`);
