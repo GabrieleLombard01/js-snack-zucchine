@@ -16,3 +16,9 @@ const zucchine = [
     { varieta: 'Varietà 9', peso: 6, lunghezza: 27 },
     { varieta: 'Varietà 10', peso: 14, lunghezza: 4 },
   ];
+
+// CREO un contatore per il pesoTotale
+let pesoTotale = 0;
+
+//! LOGICA EFFETTIVA:
+
